@@ -16,6 +16,12 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -25,11 +31,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.github.goxr3plus</groupId>
+			<artifactId>java-google-speech-api</artifactId>
+			<version>V2.0</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
